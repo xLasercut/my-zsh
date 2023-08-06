@@ -19,6 +19,7 @@ export PIPENV_VENV_IN_PROJECT=1
 export PATH=${PATH}:~/.local/bin
 export GOPATH=~/go
 export GPG_TTY=$TTY
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
