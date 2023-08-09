@@ -33,13 +33,12 @@ antigen bundle aws
 antigen bundle rbenv
 
 # third party plugins
-antigen bundle ecortinas/zsh-rbenv@main
-antigen bundle mattberther/zsh-pyenv
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle CDA0/zsh-tfenv
-antigen bundle lukechilds/zsh-nvm
-antigen bundle CDA0/zsh-goenv
-antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle xLasercut/zsh-pyenv
+antigen bundle xLasercut/zsh-syntax-highlighting
+antigen bundle xLasercut/zsh-tfenv
+antigen bundle xLasercut/zsh-nvm
+antigen bundle xLasercut/zsh-goenv
+antigen bundle xLasercut/zsh-autosuggestions
 
 # alias
 alias assume-role='function(){ eval $(__assume_role $@); }'
