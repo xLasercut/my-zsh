@@ -39,9 +39,7 @@ antigen bundle xLasercut/zsh-tfenv
 antigen bundle xLasercut/zsh-nvm
 antigen bundle xLasercut/zsh-goenv
 antigen bundle xLasercut/zsh-autosuggestions
-
-# alias
-alias assume-role='function(){ eval $(__assume_role $@); }'
+antigen bundle xLasercut/zsh-commands
 
 antigen apply
 
