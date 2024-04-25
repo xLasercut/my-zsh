@@ -39,6 +39,7 @@ antigen bundle xLasercut/zsh-tfenv
 antigen bundle xLasercut/zsh-nvm
 antigen bundle xLasercut/zsh-goenv
 antigen bundle xLasercut/zsh-autosuggestions
+antigen bundle xLasercut/zsh-aws-assume-role
 antigen bundle xLasercut/zsh-commands
 
 antigen apply
