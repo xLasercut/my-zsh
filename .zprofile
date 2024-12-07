@@ -1,3 +1,5 @@
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 command_not_found_handle() {
   # don't run if not in a container
   if [ ! -e /run/.containerenv ] && [ ! -e /.dockerenv ]; then
