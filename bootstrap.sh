@@ -9,6 +9,7 @@ fi
 
 sudo pacman -Syy
 sudo pacman -S --needed base-devel openssl zlib xz tk
+sudo pacman -S zsh
 
 git clone https://github.com/zsh-users/antigen.git ~/antigen
 
