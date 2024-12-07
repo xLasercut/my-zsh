@@ -14,6 +14,7 @@ git clone https://github.com/zsh-users/antigen.git ~/antigen
 
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/.zshrc" --output "${HOME}/.zshrc"
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/.p10k.zsh" --output "${HOME}/.p10k.zsh"
+curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/.zprofile" --output "${HOME}/.zprofile"
 
 chsh -s /bin/zsh
 
