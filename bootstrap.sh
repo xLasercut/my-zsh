@@ -27,6 +27,7 @@ sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
 sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak
 
 flatpak install flathub org.keepassxc.KeePassXC
+flatpak install flathub app.devsuite.Ptyxis
 
 systemctl --user enable ssh-agent.service
 systemctl --user start ssh-agent.service
