@@ -4,5 +4,5 @@
 ## Install
 
 ```shell
-curl -s -S -L https://raw.githubusercontent.com/xLasercut/my-zsh/master/bootstrap.sh | bash
+bash <(curl -L https://raw.githubusercontent.com/xLasercut/my-zsh/master/bootstrap.sh)
 ```
