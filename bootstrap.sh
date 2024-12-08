@@ -24,7 +24,9 @@ curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/start-syncthing.
 
 sudo pacman -Syy
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
-sudo pacman -S --noconfirm zsh syncthing keepassxc openssh vim sshpass
+sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak
+
+flatpak install flathub org.keepassxc.KeePassXC
 
 systemctl --user enable ssh-agent.service
 systemctl --user start ssh-agent.service
