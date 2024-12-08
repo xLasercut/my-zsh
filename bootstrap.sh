@@ -23,6 +23,9 @@ sudo pacman -Syy
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
 sudo pacman -S --noconfirm zsh
 
+systemctl --user enable ssh-agent.service
+systemctl --user start ssh-agent.service
+
 chsh -s /bin/zsh
 
 /bin/zsh ~/.zshrc
