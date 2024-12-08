@@ -23,7 +23,7 @@ curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/start-syncthing.
 
 sudo pacman -Syy
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
-sudo pacman -S --noconfirm zsh syncthing keepassxc
+sudo pacman -S --noconfirm zsh syncthing keepassxc openssh
 
 systemctl --user enable ssh-agent.service
 systemctl --user start ssh-agent.service
