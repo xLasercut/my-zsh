@@ -10,6 +10,7 @@ if [[ ${current_user} == "root" ]]; then
 fi
 
 mkdir -p ~/.config/systemd/user/
+rm -rf ~/antigen
 
 git clone https://github.com/zsh-users/antigen.git ~/antigen
 
