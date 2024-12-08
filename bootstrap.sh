@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 current_user=$(whoami)
 
 if [[ ${current_user} == "root" ]]; then
