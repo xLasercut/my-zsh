@@ -10,8 +10,8 @@ if [[ ${current_user} == "root" ]]; then
 fi
 
 sudo pacman -Syy
-sudo pacman -S --needed base-devel openssl zlib xz tk
-sudo pacman -S zsh
+sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
+sudo pacman -S --noconfirm zsh
 
 mkdir -p ~/.config/systemd/user/
 
