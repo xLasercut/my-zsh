@@ -33,13 +33,10 @@ antigen bundle aws
 antigen bundle rbenv
 
 # third party plugins
-antigen bundle xLasercut/zsh-pyenv
-antigen bundle xLasercut/zsh-tfenv
-antigen bundle xLasercut/zsh-nvm
-antigen bundle xLasercut/zsh-goenv
 antigen bundle xLasercut/zsh-autosuggestions
 antigen bundle xLasercut/zsh-aws-assume-role
 antigen bundle xLasercut/zsh-commands
+antigen bundle xLasercut/zsh-asdf
 
 # syntax highlighting must be last
 antigen bundle xLasercut/zsh-syntax-highlighting
