@@ -21,13 +21,12 @@ curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/.zprofile" --out
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/.profile" --output "${HOME}/.profile"
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/ssh-agent.service" --output "${HOME}/.config/systemd/user/ssh-agent.service"
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/start-syncthing.desktop" --output "${HOME}/.config/autostart/start-syncthing.desktop"
+curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/distrobox.ini" --output "${HOME}/distrobox.ini"
 
-sudo pacman -Syy
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
-sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak
+sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak ptyxis distrobox
 
 flatpak install flathub org.keepassxc.KeePassXC
-flatpak install flathub app.devsuite.Ptyxis
 
 systemctl --user enable ssh-agent.service
 systemctl --user start ssh-agent.service
