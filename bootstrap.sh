@@ -25,7 +25,7 @@ curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/start-syncthing.
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/distrobox.ini" --output "${HOME}/distrobox.ini"
 
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
-sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak ptyxis distrobox
+sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak distrobox
 yay -S asdf-vm
 
 asdf plugin add terraform
