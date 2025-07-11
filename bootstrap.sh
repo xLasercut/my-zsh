@@ -44,10 +44,21 @@ asdf plugin add trivy
 asdf plugin add golang
 asdf plugin add pnpm
 
+asdf set -u terraform system
+asdf set -u tfsec system
+asdf set -u awscli system
 asdf set -u python system
-asdf set -u golang system
+asdf set -u poetry system
 asdf set -u nodejs system
 asdf set -u java system
+asdf set -u maven system
+asdf set -u kubectl system
+asdf set -u kubesec system
+asdf set -u helm system
+asdf set -u packer system
+asdf set -u trivy system
+asdf set -u golang system
+asdf set -u pnpm system
 
 flatpak install --system flathub org.keepassxc.KeePassXC
 
