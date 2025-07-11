@@ -25,40 +25,7 @@ curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/start-syncthing.
 curl "https://raw.githubusercontent.com/xLasercut/my-zsh/master/distrobox.ini" --output "${HOME}/distrobox.ini"
 
 sudo pacman -S --noconfirm --needed base-devel openssl zlib xz tk
-sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak distrobox
-yay -S asdf-vm
-
-asdf plugin add terraform
-asdf plugin add tfsec
-asdf plugin add awscli
-asdf plugin add python
-asdf plugin add poetry
-asdf plugin add nodejs
-asdf plugin add java
-asdf plugin add maven
-asdf plugin add kubectl
-asdf plugin add kubesec
-asdf plugin add helm
-asdf plugin add packer
-asdf plugin add trivy
-asdf plugin add golang
-asdf plugin add pnpm
-
-asdf set -u terraform system
-asdf set -u tfsec system
-asdf set -u awscli system
-asdf set -u python system
-asdf set -u poetry system
-asdf set -u nodejs system
-asdf set -u java system
-asdf set -u maven system
-asdf set -u kubectl system
-asdf set -u kubesec system
-asdf set -u helm system
-asdf set -u packer system
-asdf set -u trivy system
-asdf set -u golang system
-asdf set -u pnpm system
+sudo pacman -S --noconfirm zsh syncthing openssh vim sshpass flatpak distrobox mise
 
 flatpak install --system flathub org.keepassxc.KeePassXC
 
